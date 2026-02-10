@@ -13,4 +13,4 @@ describe('calcWeightedGrade Tests', () => {
     test('Lanza TypeError si input no es array', () => {
         expect(() => calcWeightedGrade("hola")).toThrow(TypeError);
     });
-);
+});
